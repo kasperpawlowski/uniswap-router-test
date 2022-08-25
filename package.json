@@ -1,0 +1,17 @@
+{
+  "name": "uniswap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uniswap/smart-order-router": "^2.9.3",
+    "ethers": "^5.7.0"
+  }
+}
